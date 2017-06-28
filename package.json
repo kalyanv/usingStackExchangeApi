@@ -1,0 +1,32 @@
+{
+  "name": "stackExchange",
+  "version": "1.0.0",
+  "description": "stackExchange API using reactjs redux ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack -p",
+    "start-webpack": "webpack-dev-server --hot --inline --colors --progress"
+  },
+  "author": "Kalyanapasupathy Venkataraju",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.0",
+    "redux": "^3.0.4",
+    "redux-logger": "^2.8.2",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack": "^1.13.2"
+  }
+}
